@@ -24,7 +24,7 @@ The website is built using the following technologies:
 
 To run the **OneTouchFoundation** website locally, follow these steps:
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/mrRio8936/onetouchfoundation.git
