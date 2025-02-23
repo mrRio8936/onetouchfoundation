@@ -7,10 +7,6 @@
 ## Table of Contents
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Usage](#usage)
-- [EmailJS Integration](#emailjs-integration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -33,3 +29,8 @@ To run the **OneTouchFoundation** website locally, follow these steps:
 ```bash
 git clone https://github.com/mrRio8936/onetouchfoundation.git
 cd onetouchfoundation
+
+
+
+
+
