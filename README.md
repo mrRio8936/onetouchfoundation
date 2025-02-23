@@ -1,8 +1,35 @@
-# React + Vite
+# OneTouchFoundation Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**OneTouchFoundation** is a multi-page website developed using React, Vite, TailwindCSS, and integrated with EmailJS functionality to allow users to contact the foundation. It is designed to provide information about the foundation, its mission, and offer users a way to connect via a contact form.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [EmailJS Integration](#emailjs-integration)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Technologies
+The website is built using the following technologies:
+
+- **React**: JavaScript library for building user interfaces.
+- **Vite**: A fast build tool and development server for modern web applications.
+- **TailwindCSS**: Utility-first CSS framework for rapid UI development.
+- **EmailJS**: Service that allows sending emails from a JavaScript application without a backend.
+
+---
+
+## Installation
+
+To run the **OneTouchFoundation** website locally, follow these steps:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/mrRio8936/onetouchfoundation.git
+cd onetouchfoundation
