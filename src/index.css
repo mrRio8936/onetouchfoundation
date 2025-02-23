@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Change Swiper navigation buttons color */
+.swiper-button-next,
+.swiper-button-prev {
+  color: green !important;
+}
