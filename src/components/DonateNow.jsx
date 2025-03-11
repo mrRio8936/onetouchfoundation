@@ -87,7 +87,7 @@ export default function DonateNow() {
           <form ref={formRef} onSubmit={sendEmail} className="space-y-4">
             <div>
               <label className="block text-sm font-medium text-gray-700">
-                Full Name
+                Full Name <span className="text-red-600">*</span>
               </label>
               <input
                 type="text"
@@ -101,7 +101,7 @@ export default function DonateNow() {
 
             <div>
               <label className="block text-sm font-medium text-gray-700">
-                Email
+                Email <span className="text-red-600">*</span>
               </label>
               <input
                 type="email"
@@ -115,7 +115,7 @@ export default function DonateNow() {
 
             <div>
               <label className="block text-sm font-medium text-gray-700">
-                Phone
+                Phone <span className="text-red-600">*</span>
               </label>
               <input
                 type="tel"
@@ -129,7 +129,7 @@ export default function DonateNow() {
 
             <div>
               <label className="block text-sm font-medium text-gray-700">
-                Donation Amount
+                Donation Amount <span className="text-red-600">*</span>
               </label>
               <input
                 type="number"

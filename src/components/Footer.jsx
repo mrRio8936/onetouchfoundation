@@ -55,6 +55,12 @@ function Footer() {
               >
                 Contact
               </a>
+              <a
+                href="/certificates"
+                className="transition-colors duration-300 text-gray-600 hover:text-green-500"
+              >
+                Certificates
+              </a>
             </div>
           </div>
         </div>

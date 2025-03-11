@@ -13,7 +13,7 @@ export default function Hero() {
     <div
       className="h-screen bg-cover bg-center relative"
       style={{
-        backgroundImage: "url('/assets/bg/bg1.jpg')",
+        backgroundImage: "url('/assets/bg/news.jpg')",
       }}
     >
       {/* /assets/bg/news.jpg */}
@@ -36,7 +36,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          TO MAKE THE BETTER WORLD
+          Arise, Awake, and Stop Not Till The Goal is Reached
         </motion.p>
 
         {/* <motion.p

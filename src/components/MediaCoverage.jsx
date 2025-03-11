@@ -10,7 +10,7 @@ const newspaperCuttings = [
 export default function MediaCoverage() {
   return (
     <section
-      className="relative py-16 bg-cover bg-center"
+      className="relative py-24 bg-cover bg-center"
       style={{ backgroundImage: "url('./assets/bg/bg1.jpg')" }}
     >
       {/* Overlay */}

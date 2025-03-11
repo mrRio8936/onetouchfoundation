@@ -28,7 +28,12 @@ export default function OurMotive() {
           At One Touch Foundation, we believe every child deserves the
           opportunity to learn, grow, and dream. Our mission is to provide
           education, nutrition, sports opportunities, and holistic support to
-          shape bright futures.
+          shape bright futures. Through dedicated efforts, we strive to empower
+          underprivileged communities by offering access to quality learning
+          resources, fostering creativity, and promoting well-being. With the
+          support of our volunteers and donors, we are creating a world where no
+          child is left behind, ensuring they have the skills and confidence to
+          build a better tomorrow.
         </motion.p>
 
         <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4 place-items-center text-center">

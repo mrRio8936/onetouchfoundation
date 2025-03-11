@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import founder1 from "/assets/gallery/founder1.jpg";
 import founder2 from "/assets/gallery/founder2.jpg";
-import founder3 from "/assets/gallery/founder3.jpg";
+import founder3 from "/assets/gallery/founder3_1.jpg";
+import founder4 from "/assets/gallery/founder4.jpg";
 
 function About() {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
@@ -35,7 +36,7 @@ function About() {
         </motion.p>
 
         {/* Founders Section */}
-        <div className="grid gap-10 md:grid-cols-3 place-items-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 place-items-center">
           {[
             {
               img: founder1,
@@ -55,10 +56,16 @@ function About() {
               role: "Treasurer",
               desc: "Arun Singh manages financial operations, bringing transparency and accountability to the organization's social programs while driving impactful funding strategies.",
             },
+            {
+              img: founder4,
+              name: "Shagun Jain",
+              role: "Auditor",
+              desc: "Shagun Jain ensures financial transparency and accountability by overseeing audits and compliance, helping the NGO maintain integrity and trust in its operations.",
+            },
           ].map((founder, index) => (
             <motion.div
               key={index}
-              className="bg-white shadow-lg rounded-xl overflow-hidden text-center p-6"
+              className="bg-white shadow-lg rounded-xl overflow-hidden text-center p-4"
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{
@@ -70,11 +77,15 @@ function About() {
               <img
                 src={founder.img}
                 alt={founder.name}
-                className="w-40 h-40 object-cover rounded-full mx-auto mb-4"
+                className="w-24 h-24 md:w-40 md:h-40 object-cover rounded-full mx-auto mb-4"
               />
-              <h3 className="text-2xl font-bold mb-2">{founder.name}</h3>
-              <p className="text-sm text-gray-600 mb-4">{founder.role}</p>
-              <p>{founder.desc}</p>
+              <h3 className="text-lg md:text-2xl font-bold mb-2">
+                {founder.name}
+              </h3>
+              <p className="text-xs md:text-sm text-gray-600 mb-2">
+                {founder.role}
+              </p>
+              <p className="text-xs md:text-base">{founder.desc}</p>
             </motion.div>
           ))}
         </div>
