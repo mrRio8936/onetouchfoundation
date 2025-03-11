@@ -10,6 +10,7 @@ import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import DonateNow from "./components/DonateNow";
 import StatsCounter from "./components/StatsCounter";
+import Certificates from "./components/Certificates";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/causes" element={<MediaCoverage />} />
+        <Route path="/certificates" element={<Certificates />} />
       </Routes>
       <Footer />
     </>

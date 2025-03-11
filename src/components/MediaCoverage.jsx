@@ -11,7 +11,7 @@ export default function MediaCoverage() {
   return (
     <section
       className="relative py-16 bg-cover bg-center"
-      style={{ backgroundImage: "url('./assets/bg/bg1.jpg')" }} // Change to your background image
+      style={{ backgroundImage: "url('./assets/bg/bg1.jpg')" }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>

@@ -29,6 +29,7 @@ export default function Navbar() {
     { name: "Gallery", path: "/gallery" },
     { name: "News & Updates", path: "/causes" },
     { name: "Contact", path: "/contact" },
+    { name: "Certificates", path: "/certificates" },
   ];
 
   return (
@@ -37,12 +38,12 @@ export default function Navbar() {
         scrolling ? "bg-green-800" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto flex justify-between items-center px-4 sm:px-6 md:px-16 lg:px-32 py-3">
+      <div className="container mx-auto flex justify-between items-center px-4 sm:px-2 md:px-12 lg:px-12 py-3">
         {/* Logo with Name */}
         <span className="flex items-center">
           <Link to="/" className="flex items-center">
             <img src={logo} alt="One Touch Logo" className="h-10 md:h-12" />
-            <span className="text-xl md:text-2xl font-bold pl-3 whitespace-nowrap">
+            <span className="text-xl md:text-3xl font-bold pl-3 whitespace-nowrap">
               One Touch Foundation
             </span>
           </Link>

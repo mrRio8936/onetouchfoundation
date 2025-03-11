@@ -8,7 +8,7 @@ export default function Contact() {
           <p className="font-medium text-2xl text-green-500 dark:text-blue-400">
             Contact us
           </p>
-          <h1 className="mt-2 text-3xl font-semibold text-gray-800 md:text-4xl dark:text-white">
+          <h1 className="mt-2 text-3xl font-semibold md:text-4xl text-white">
             Get in touch
           </h1>
           <p className="mt-3 text-gray-500 dark:text-gray-400">
@@ -26,7 +26,7 @@ export default function Contact() {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-8 h-8 "
                 >
                   <path
                     strokeLinecap="round"
@@ -36,7 +36,7 @@ export default function Contact() {
                 </svg>
               </span>
 
-              <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              <h2 className="mt-4 text-2xl font-medium text-gray-800 dark:text-white">
                 Email
               </h2>
               {/* <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">

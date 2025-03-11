@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 
 const stats = [
   { number: 1232, label: "Students" },
-  { number: 64, label: "Courses" },
-  { number: 42, label: "Events" },
-  { number: 24, label: "Trainers" },
+  { number: 35, label: "Events" },
+  { number: 42, label: "Trainers" },
+  { number: 125, label: "Touchers" },
 ];
 
 const StatsCounter = () => {

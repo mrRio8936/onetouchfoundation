@@ -13,7 +13,7 @@ export default function Hero() {
     <div
       className="h-screen bg-cover bg-center relative"
       style={{
-        backgroundImage: "url('/assets/bg/news.jpg')",
+        backgroundImage: "url('/assets/bg/bg1.jpg')",
       }}
     >
       {/* /assets/bg/news.jpg */}
@@ -21,12 +21,12 @@ export default function Hero() {
       <div className="relative z-10 text-center text-white flex flex-col items-center justify-center h-full">
         {/* Animated Heading */}
         <motion.h2
-          className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase text-orange-500"
+          className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase text-white"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Give a Hand
+          Educate India
         </motion.h2>
 
         {/* Animated Subheading */}
@@ -39,7 +39,7 @@ export default function Hero() {
           TO MAKE THE BETTER WORLD
         </motion.p>
 
-        <motion.p
+        {/* <motion.p
           className="mt-6 max-w-2xl"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ export default function Hero() {
         >
           One Touch means A touch for those who needed give him direction to
           help him out for a change for their life.
-        </motion.p>
+        </motion.p> */}
 
         {/* Buttons with Hover Effects */}
         <motion.div
